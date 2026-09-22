@@ -1,0 +1,25 @@
+<div class="container">
+  <h1>💬 Analyseur de sentiment</h1>
+  <p class="subtitle">Colle une liste d'avis clients ou de tickets (un par ligne), l'IA les classe automatiquement.</p>
+
+  <textarea
+    [(ngModel)]="inputText"
+    rows="8"
+    placeholder="Un avis par ligne, par exemple :&#10;Le service était rapide et efficace, très satisfait&#10;Livraison en retard de 3 jours, aucune excuse&#10;Le produit correspond a la description"
+  ></textarea>
+
+  <button class="submit-btn" (click)="submit()" [disabled]="loading">
+    {{ loading ? 'Analyse en cours...' : 'Analyser' }}
+  </button>
+
+  <p class="hint" *ngIf="loading">Premier appel un peu plus lent (le modèle se charge) — patiente 20-30s si besoin.</p>
+  <p class="error" *ngIf="errorMsg">{{ errorMsg }}</p>
+
+  <div class="results" *ngIf="results.length">
+    <div class="result-row" *ngFor="let r of results" [ngClass]="r.sentiment">
+      <span class="emoji">{{ r.emoji }}</span>
+      <span class="text">{{ r.text }}</span>
+      <span class="badge">{{ r.sentiment }} · {{ r.confidence }}%</span>
+    </div>
+  </div>
+</div>
