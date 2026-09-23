@@ -14,16 +14,18 @@ en Positif / Neutre / Négatif, via un modèle de langage pré-entraîné (aucun
 ### Avis positif
 
 
+![Avis positif](./screenshot-positif.png)
 
 
 ### Avis neutre
 
+![Avis neutre](./screenshot-neutre.png)
 
 
 
 ### Avis négatif
 
-
+![Avis négatif](./screenshot-negatif.png)
 
 
 ## Stack technique
