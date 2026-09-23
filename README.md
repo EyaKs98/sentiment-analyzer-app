@@ -12,18 +12,16 @@ en Positif / Neutre / Négatif, via un modèle de langage pré-entraîné (aucun
 ## Aperçu
 
 ### Avis positif
-<img width="987" height="632" alt="screenshot-positif" src="https://github.com/user-attachments/assets/b88f6603-2d64-4afb-8d31-7ed024f002f5" />
+
 
 
 
 ### Avis neutre
-<img width="1047" height="616" alt="screenshot-neutre" src="https://github.com/user-attachments/assets/144cb796-50b3-4d86-8ec1-75d8f5658cea" />
 
 
 
 
 ### Avis négatif
-<img width="1096" height="660" alt="screenshot-negatif" src="https://github.com/user-attachments/assets/61328980-c02a-4fee-b7f2-0442d2ecec21" />
 
 
 
