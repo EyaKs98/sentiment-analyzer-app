@@ -21,7 +21,8 @@ en Positif / Neutre / Négatif, via un modèle de langage pré-entraîné (aucun
 
 ### Avis négatif
 
-![Avis négatif](./screenshot-negatif.png)
+<img width="1096" height="660" alt="screenshot-neutre png" src="https://github.com/user-attachments/assets/5cb06505-0d62-4546-8623-8ab64bd99097" />
+
 
 
 ## Stack technique
