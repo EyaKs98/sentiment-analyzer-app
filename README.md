@@ -20,7 +20,7 @@ en Positif / Neutre / Négatif, via un modèle de langage pré-entraîné (aucun
 
 
 ### Avis négatif
-<img width="1096" height="660" alt="image" src="https://github.com/user-attachments/assets/575c5986-2fce-4f74-b9bc-27dec79fc902" />
+<img width="1096" height="660" alt="neg" src="https://github.com/user-attachments/assets/5de8c405-f4ba-4026-a047-240c1bf40dc3" />
 
 
 
